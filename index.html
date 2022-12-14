@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css"
+        integrity="sha256-XoaMnoYC5TH6/+ihMEnospgm0J1PM/nioxbOUdnM8HY=" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Galeria de fotos</h1>
+        <button type="button">Nova imagem +</button>
+    </header>
+    <form>
+        <h2>Inserir nova imagem</h2>
+        <input type="url" required placeholder="URL da imagem" id="enderecoDaNovaImagem">
+        <button type="submit">Adicionar</button>
+        <button type="reset" id="botao-cancelar">Cancelar</button>
+    </form>
+    <ul id="galeria">
+        <li>
+            <img src="./images/foto1.jpg" alt="Pintura de um gato">
+            <div class="overlay-imagem-link">
+                <a class="link-img" href="./images/foto1.jpg" title="Ver imagem em tamanho real" target="_blank">
+                    Ver imagem em tamanho real
+                </a>
+                <a class="visualizar" href="./images/foto1.jpg" title="Ver imagem em tamanho real" target="_blank">
+                    <i class="fa fa-eye visualizar"></i>
+                </a>
+            </div>
+        </li>
+        <li>
+            <img src="./images/foto2.jpg" alt="Pintura de um gato">
+            <div class="overlay-imagem-link">
+                <a class="link-img" href="./images/foto2.jpg" title="Ver imagem em tamanho real" target="_blank">
+                    Ver imagem em tamanho real
+                </a>
+                <a class="visualizar" href="./images/foto2.jpg" title="Ver imagem em tamanho real" target="_blank">
+                    <i class="fa fa-eye visualizar"></i>
+                </a>
+            </div>
+        </li>
+        <li>
+            <img src="./images/foto3.jpg" alt="Pintura de um gato">
+            <div class="overlay-imagem-link">
+                <a class="link-img" href="./images/foto3.jpg" title="Ver imagem em tamanho real" target="_blank">
+                    Ver imagem em tamanho real
+                </a>
+                <a class="visualizar" href="./images/foto3.jpg" title="Ver imagem em tamanho real" target="_blank">
+                    <i class="fa fa-eye visualizar"></i>
+                </a>
+            </div>
+        </li>
+        <li>
+            <img src="./images/foto4.jpg" alt="Pintura de um gato">
+            <div class="overlay-imagem-link">
+                <a class="link-img" href="./images/foto4.jpg" title="Ver imagem em tamanho real" target="_blank">
+                    Ver imagem em tamanho real
+                </a>
+                <a class="visualizar" href="./images/foto4.jpg" title="Ver imagem em tamanho real" target="_blank">
+                    <i class="fa fa-eye visualizar"></i>
+                </a>
+            </div>
+        </li>
+
+    </ul>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
